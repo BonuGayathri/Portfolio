@@ -8,7 +8,7 @@ This is a simple portfolio website for a software developer specializing in Java
 
 ## Demo
 
-You can view a live demo of the website [here](#).
+You can view a live demo of the website http://127.0.0.1:5500/index.html.
 
 ## Features
 
