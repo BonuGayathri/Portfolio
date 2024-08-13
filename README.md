@@ -8,7 +8,7 @@ This is a simple portfolio website for a software developer specializing in Java
 
 ## Demo
 
-You can view a live server of the website https://bonugayathri.github.io/Portfolio/.
+You can view a live server of the website https://bonugayathri.github.io/Portfolio/Portfolio/.
 
 ## Features
 
