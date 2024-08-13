@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <!-- Header -->
+    <header class="bg-gray-900 text-white">
+        <div class="container mx-auto flex justify-between items-center py-6 px-4">
+            <h1 class="text-3xl font-bold">Bonu Gayathri</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#about" class="hover:text-gray-300">About</a></li>
+                    <li><a href="#skills" class="hover:text-gray-300">Skills</a></li>
+                    <li><a href="#projects" class="hover:text-gray-300">Projects</a></li>
+                    <li><a href="#contact" class="hover:text-gray-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container mx-auto py-16 px-4">
+        <div class="text-center">
+            <h2 class="text-4xl font-bold mb-6">About Me</h2>
+            <p class="text-lg max-w-3xl mx-auto">
+                I am a software developer specializing in Java development with a passion for creating robust, scalable, and efficient applications. With a strong background in both front-end and back-end development, I enjoy solving complex problems and continuously learning new technologies.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="bg-white py-16 px-4">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-6">Skills</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="bg-gray-200 p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-4">Java</h3>
+                </div>
+                <div class="bg-gray-200 p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-4">Spring Boot</h3>
+                </div>
+                <div class="bg-gray-200 p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-4">MySQL</h3>
+                </div>
+                <div class="bg-gray-200 p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-4">JavaScript</h3>
+                </div>
+                <div class="bg-gray-200 p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-4">HTML/CSS</h3>
+                </div>
+                <div class="bg-gray-200 p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-4">Git</h3>
+                </div>
+                <div class="bg-gray-200 p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-4">Python</h3>
+                </div>
+                <div class="bg-gray-200 p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-4">AWS</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container mx-auto py-16 px-4">
+        <div class="text-center">
+            <h2 class="text-4xl font-bold mb-6">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4">Sudoku Solver | Data Structures & Algorithms, Java, Backtracking Concept </h3>
+                    <p class="text-lg">
+                        Created a Sudoku Solver game in Java, employing data structures and a backtracking algorithm for efficient 
+puzzle solving and validation. Designed a user-friendly interface, enhanced solution methods, and delivered a 
+smooth experience. 
+                    </p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4">Homely Hub | HTML, CSS, JavaScript, React.js, MongoDB, Node.js</h3>
+                    <p class="text-lg">
+                        Built 'Homely Hub' a home booking platform using the MERN stack, offering a smooth experience for travellers. 
+Integrated user-friendly search and booking features to boost engagement and satisfaction. 
+                    </p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4">Attack Detection Using AI | Reinforcement Learning, Blockchain Technology (PRESENT) </h3>
+                    <p class="text-lg">
+                        I’m currently working on a cybersecurity project that uses AI-driven reinforcement learning to detect attacks in 
+real-time. The project also incorporates blockchain technology to ensure secure and tamper-proof event 
+logging. 
+                    </p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4">Glory Luxe | Static webapps, healthbot, HTML, CSS, JavaScript, Bootstrap, Azure</h3>
+                    <p class="text-lg">
+                        This web based Beauty and Spa application has been developed for the accomplishment 
+                        of Future Ready Talent Internship program launched by Microsoft, Future Skills Prime, Quess, Github and EY.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-gray-900 text-white py-16 px-4">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-6">Contact Me</h2>
+            <form class="max-w-xl mx-auto" id="contactForm">
+                <div class="mb-4">
+                    <input type="text" class="w-full p-4 rounded-lg" placeholder="Bonu Gayathri" id="name" required>
+                </div>
+                <div class="mb-4">
+                    <input type="email" class="w-full p-4 rounded-lg" placeholder="gayathri.23295@gmail.com" id="email" required>
+                </div>
+                <div class="mb-4">
+
+                </div>
+                <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-lg">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Bonu Gayathri. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
